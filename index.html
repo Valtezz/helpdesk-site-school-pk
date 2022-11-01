@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It поддержка Школы "Покровский квартал"</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="form">
+        <form action="#" id="form" class="form_body">
+            <div class="form_title">
+            <h1 class="title">Техподдержка Школы "Покровский Квартал"</h1>
+            <img src="orglogo.png" alt="" class="form_image">
+            </div>
+            <div class="form_item">
+                <label for="formName" class="form_label">Пожалуйста представьтесь:</label>
+                <input type="text" id="formName" class="form_input" placeholder="ФИО">
+            </div>
+            <div class="form_item">
+                <label for="email" class="form_label">E-mail:</label>
+            <input type="email" name="email" id="email" class="form_input">
+            </div>
+            <!-- <div class="form_item">
+                <label for="phone" class="form_label">Телефон для связи:</label>
+                <input id="phone" type="tel" class="form_input">
+            </div> -->
+            <div class="form_item">
+                <label for="constr_select" class="form_label">Выберите здание:</label>
+                <select name="constructions" id="constr_select" class="">
+                    
+                    <option value="BK" selected>Большой Казеный</option>
+                    <option value="LP">Лялин переулок</option>
+                    <option value="ZV">Земляной Вал</option>
+                    <option value="BTR">Большой Трехсвятительский</option>
+                    <option value="OVZ">Большой Трехсвятительский(ОВЗ)</option>
+                    <option value="PK">Покровка</option>
+                    <option value="EN">Шоссе Энтузиастов</option>
+                    <option value="TE">Текстильщики</option>
+                    <option value="KL">Коломенская</option>
+                </select>
+            </div>
+            <div class="form_item">
+                <label for="kab_num" class="form_label">Кабинет номер:</label>
+                <input type="text" id="kab_num" class="form_input">
+            </div>
+            <div class="form_item">
+                <label for="problem" class="form_label">Опишите проблему:</label>
+                <textarea id="problem" class="form_input" cols="20" rows="1" ></textarea>
+            </div>
+
+            <button type="submit" class="form_button button">Отправить</button>
+
+        </form>
+    </div>
+    <!-- <button class="link btn">панель заявок</button> -->
+</body>
+<script type="module" src="./scripts/script.js"></script>
+</html>

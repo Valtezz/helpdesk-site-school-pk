@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    background-color: rgb(39, 37, 37);
+    text-align: center;
+}
+.card{
+    margin: 2px;
+    float: left;
+    width: 200px;
+    height: 250px;
+    max-height: 400px;
+    background-color: rgb(222, 240, 255);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+.card h3{
+    margin-top: 4px;
+    margin-bottom: -20px;
+}
+.card h4{
+    margin-bottom: 4px;
+}
+.card_text{
+    width:100%;
+    height: 160px;
+    min-height: 160px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: green;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: black 2px 2px 4px;
+
+}
+nav ul li:hover{
+    background: rgb(0, 255, 34);
+    background: linear-gradient(0deg, rgb(0, 255, 4) 0%, rgb(2, 251, 39) 100%);
+}
+.card_button{
+    color: whitesmoke;
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    background: rgb(6, 131, 6);
+    background: linear-gradient(0deg, rgb(10, 131, 6) 0%, rgb(12, 180, 54) 100%);
+    border: none;
+    text-shadow: black 2px 2px 4px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.card_button:hover{
+    background: rgb(0, 255, 34);
+    background: linear-gradient(0deg, rgb(0, 255, 4) 0%, rgb(2, 251, 39) 100%);
+}
